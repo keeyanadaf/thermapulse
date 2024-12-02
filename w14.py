@@ -41,11 +41,11 @@ menu = st.sidebar.radio("Go to:", ["Homepage", "Dashboard"])
 
 # Homepage
 if menu == "Homepage":
-    st.title("Welcome to TheraPulse!")
+    st.title("Welcome to ThermaPulse!")
     st.header("Experience Intelligent Pain Relief")
     st.markdown(
         """
-        *TheraPulse* is a cutting-edge smart belt designed for:  
+        *ThermaPulse* is a cutting-edge smart belt designed for:  
         - *AI-Driven Insights*: Smarter therapy tailored to your needs.  
         - *Dynamic Adjustments*: Real-time pain relief using TENS and near-IR radiation.  
         - *Personalized Comfort*: Therapy modes adapted just for you.  
@@ -65,7 +65,7 @@ if menu == "Homepage":
 
 # Dashboard
 elif menu == "Dashboard":
-    st.title("TheraPulse Dashboard")
+    st.title("ThermaPulse Dashboard")
     st.write("Track therapy sessions, analyze trends, and explore personalized insights.")
 
     # Mock Data for Visualization
